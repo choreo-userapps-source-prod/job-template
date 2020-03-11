@@ -1,4 +1,4 @@
-FROM choreoipaas/ballerina:observability-improvements AS builder 
+FROM choreoipaas/choreo-ballerina:observability-improvements AS builder 
 
 WORKDIR /tmp/
 COPY ./pJob/ /tmp/
